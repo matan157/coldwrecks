@@ -64,10 +64,10 @@
 	a.contact {
 		font-family: $passion-one;
 		font-size: $size-4;
-		color: $red;
+		color: $yellow;
 	}
 
 	a.contact:hover {
-		color: darken($red, 20%);
+		color: darken($yellow, 20%);
 	}
 }
