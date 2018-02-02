@@ -44,6 +44,18 @@
 		background-color: darken($red, 20%);
 	}
 
+  .spotify-embeds {
+    width: 100%;
+  }
+
+  .spotify-embed {
+    iframe {
+      border: 0;
+      width: 100%;
+      height: 80px;
+    }
+  }
+
 	.videowrapper {
     float: none;
     clear: both;
