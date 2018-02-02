@@ -1,7 +1,7 @@
 var gulp   = require('gulp');
 var sass   = require('gulp-sass');
 var bs     = require('browser-sync').create();
-var rename = require('gulp-rename')
+var rename = require('gulp-rename');
 
 // Static Server + watching scss/html files
 gulp.task('serve', function() {
