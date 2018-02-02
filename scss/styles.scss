@@ -1,0 +1,12 @@
+@import 'partials/vendors';
+@import 'partials/fonts';
+@import 'partials/variables';
+@import 'partials/utility';
+
+@import 'partials/nav';
+@import 'partials/content';
+@import 'partials/footer';
+
+body {
+	background: $navy;
+}

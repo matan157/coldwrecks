@@ -1,0 +1,29 @@
+{
+  "name": "coldwrecks",
+  "version": "1.0.0",
+  "description": "Homepage for Cold Wrecks.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matan157/coldwrecks.git"
+  },
+  "author": "matanuchen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matan157/coldwrecks/issues"
+  },
+  "homepage": "https://github.com/matan157/coldwrecks#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "cssnano": "^3.10.0",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "bulma": "^0.6.2"
+  }
+}

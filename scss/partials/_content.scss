@@ -1,0 +1,73 @@
+#content {
+	font-family: $open-sans;
+	background: $navy;
+
+	article {
+		.title,
+		.subtitle {
+			font-family: $passion-one;
+			color: $white;
+		}
+	}
+
+	#mc_embed_signup {
+		background:inherit;
+		color: $white;
+
+		form {
+			padding: 0;
+		}
+
+		.button {
+			background-color: $yellow;
+		}
+	}
+
+	.bit-events-container {
+		font-family: $open-sans;
+
+		a {
+			text-decoration: none;
+		}
+	}
+
+	.bit-event-list-title {
+		display: none;
+	}
+
+	.bit-event,
+	.bit-upcoming-events {
+		border: none;
+	}
+
+	.bit-button:hover {
+		background-color: darken($red, 20%);
+	}
+
+	.videowrapper {
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+	}
+	.videowrapper iframe {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	}
+
+	a.contact {
+		font-family: $passion-one;
+		font-size: $size-4;
+		color: $red;
+	}
+
+	a.contact:hover {
+		color: darken($red, 20%);
+	}
+}

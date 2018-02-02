@@ -1,0 +1,18 @@
+#nav {
+
+	background: $navy;
+	color: $yellow;
+
+	.cw-title {
+		font-family: $passion-one;
+		text-transform: uppercase;
+	}
+
+	a {
+		color: inherit;
+	}
+
+	a:hover {
+		color: darken($yellow, 20%);
+	}
+}
